@@ -6,10 +6,10 @@ homepage: https://github.com/tobrun/flutter-mapbox-gl
 dependencies:
   flutter:
     sdk: flutter
-  mapbox_gl_platform_interface:
-    git:
-      url: https://github.com/tobrun/flutter-mapbox-gl.git
-      path: mapbox_gl_platform_interface
+  # mapbox_gl_platform_interface:
+  #   git:
+  #     url: https://github.com/tobrun/flutter-mapbox-gl.git
+  #     path: mapbox_gl_platform_interface
   mapbox_gl_web:
     git:
       url: https://github.com/tobrun/flutter-mapbox-gl.git
@@ -17,19 +17,19 @@ dependencies:
   collection: ^1.15.0
 
 dependency_overrides:
-  mapbox_gl_platform_interface:
-    path: ./mapbox_gl_platform_interface
+  # mapbox_gl_platform_interface:
+  #   path: ./mapbox_gl_platform_interface
   mapbox_gl_web:
     path: ./mapbox_gl_web
 
 flutter:
   plugin:
     platforms:
-      android:
-        package: com.mapbox.mapboxgl
-        pluginClass: MapboxMapsPlugin
-      ios:
-        pluginClass: MapboxMapsPlugin
+      # android:
+      #   package: com.mapbox.mapboxgl
+      #   pluginClass: MapboxMapsPlugin
+      # ios:
+      #   pluginClass: MapboxMapsPlugin
       web:
         default_package: mapbox_gl_web
 
