@@ -13,7 +13,7 @@ dependencies:
   mapbox_gl_web:
     git:
       url: https://github.com/koombea/flutter-mapbox-gl-maps.git
-      ref: develop
+      ref: main
       path: mapbox_gl_web
   collection: ^1.15.0
 
